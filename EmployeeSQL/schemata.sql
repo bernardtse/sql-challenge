@@ -1,5 +1,9 @@
+-- Change datestyle to avoid errors when importing the csv files.
+
 ALTER DATABASE EmployeeSQL SET datestyle TO "ISO, MDY";
 
+
+-- Drop tables if they exist
 
 DROP TABLE IF EXISTS dept_emp;
 DROP TABLE IF EXISTS dept_manager;
@@ -8,6 +12,7 @@ DROP TABLE IF EXISTS employees;
 DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS titles;
 
+-- Create tables
 
 CREATE TABLE departments (
 	dept_no VARCHAR(20) NOT NULL,
