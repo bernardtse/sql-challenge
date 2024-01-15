@@ -1,12 +1,12 @@
 departments
 -
-dept_no PK varchar(20)
+dept_no varchar(20) PK
 dept_name varchar(200)
 
 
 titles
 -
-title_id PK varchar(20)
+title_id varchar(20) PK
 title varchar(200)
 
 
