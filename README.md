@@ -1,4 +1,5 @@
-# sql-challenge - EmployeeSQL Analysis and Database Setup
+# sql-challenge
+EmployeeSQL Analysis and Database Setup
 
 ## Contents
 1. [Overview](#1-overview)  
