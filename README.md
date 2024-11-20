@@ -21,7 +21,7 @@ This project focuses on analysing historical employee data for Pewlett Hackard, 
   - **ERD Text Description**: [`EmployeeSQL/erd.txt`](EmployeeSQL/erd.txt)
   - **Database Schema**: [`EmployeeSQL/schemata.sql`](EmployeeSQL/schemata.sql)
   - **SQL Queries**: [`EmployeeSQL/queries.sql`](EmployeeSQL/queries.sql)
-- **Raw Data CSV Files**: [`Data`](Data)
+  - **Raw Data CSV Files**: [`EmployeeSQL/Data`](EmployeeSQL/Data)
 
 ### Database Name
 - `EmployeeSQL`
