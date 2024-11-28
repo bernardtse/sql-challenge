@@ -12,7 +12,7 @@ EmployeeSQL Analysis and Database Setup
 ## 1. Overview
 This challenge focuses on analysing historical employee data for Pewlett Hackard, a fictional company, using PostgreSQL. The primary objectives include designing an **Entity Relationship Diagram (ERD)**, creating a database schema, importing CSV data, and running SQL queries to answer key analytical questions. The dataset represents employees, their departments, titles, salaries, and managerial roles during the 1980s and 1990s.
 
----
+![ERD](EmployeeSQL/erd.png)
 
 ## 2. Repository
 
@@ -22,11 +22,12 @@ This challenge focuses on analysing historical employee data for Pewlett Hackard
   - **ERD Text Description**: [`EmployeeSQL/erd.txt`](EmployeeSQL/erd.txt)
   - **Database Schema**: [`EmployeeSQL/schemata.sql`](EmployeeSQL/schemata.sql)
   - **SQL Queries**: [`EmployeeSQL/queries.sql`](EmployeeSQL/queries.sql)
-- **Raw Data CSV Files**: [`Data`](Data)
+- **Raw Data CSV Files**: [`data`](data)
 
 ### Database Name
 - `EmployeeSQL`
 
+![Schemata](images/pgadmin1.png)
 
 ## 3. Deployment
 To set up and run the database and analysis:
@@ -53,6 +54,7 @@ SQL queries were executed to retrieve the following information:
 7. Each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 8. The frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
+![Data Query](images/pgadmin2.png)
 
 ## 5. References
 - PostgreSQL Date and Time Functions: [Official Documentation](https://www.postgresql.org/docs/8.1/functions-datetime.html)  
