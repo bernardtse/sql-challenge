@@ -22,7 +22,7 @@ This challenge focuses on analysing historical employee data for Pewlett Hackard
   - **ERD Text Description**: [`EmployeeSQL/erd.txt`](EmployeeSQL/erd.txt)
   - **Database Schema**: [`EmployeeSQL/schemata.sql`](EmployeeSQL/schemata.sql)
   - **SQL Queries**: [`EmployeeSQL/queries.sql`](EmployeeSQL/queries.sql)
-- **Raw Data CSV Files**: [`data`](data)
+- **Raw Data CSV Files**: [`data/`](data)
 
 ### Database Name
 - `EmployeeSQL`
