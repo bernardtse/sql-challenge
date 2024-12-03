@@ -12,16 +12,16 @@ EmployeeSQL Database Setup and Analysis
 ## 1. Overview
 This challenge focuses on analysing historical employee data for Pewlett Hackard, a fictional company, using PostgreSQL. The primary objectives include designing an **Entity Relationship Diagram (ERD)**, creating a database schema, importing CSV data, and running SQL queries to answer key analytical questions. The dataset represents employees, their departments, titles, salaries, and managerial roles during the 1980s and 1990s.
 
-![ERD](employeesql/erd.png)
+![ERD](employee_sql/erd.png)
 
 ## 2. Repository
 
 ### Structure
-- **Main Folder**: [`employeesql/`](employeesql)  
-  - **ERD Diagram**: [`employeesql/erd.png`](employeesql/erd.png)
-  - **ERD Text Description**: [`employeesql/erd.txt`](employeesql/erd.txt)
-  - **Database Schema**: [`employeesql/schemata.sql`](employeesql/schemata.sql)
-  - **SQL Queries**: [`employeesql/queries.sql`](employeesql/queries.sql)
+- **Main Folder**: [`employee_sql/`](employee_sql)  
+  - **ERD Diagram**: [`employee_sql/erd.png`](employee_sql/erd.png)
+  - **ERD Text Description**: [`employee_sql/erd.txt`](employee_sql/erd.txt)
+  - **Database Schema**: [`employee_sql/schemata.sql`](employee_sql/schemata.sql)
+  - **SQL Queries**: [`employee_sql/queries.sql`](employee_sql/queries.sql)
 - **Raw Data CSV Files**: [`data/`](data)
 
 ### Database Name
@@ -32,13 +32,13 @@ This challenge focuses on analysing historical employee data for Pewlett Hackard
 ## 3. Deployment
 To set up and run the database and analysis:
 1. Create a PostgreSQL database named `EmployeeSQL` in pgAdmin.
-2. Load the schema by running `employeesql/schemata.sql`:
+2. Load the schema by running `employee_sql/schemata.sql`:
    - Ensure the tables are created in the correct order to manage foreign key dependencies.
 3. Import the CSV data:
    - The CSV files should correspond to the tables created (e.g., `departments.csv` to `departments` table).
    - Follow this order: **departments**, **titles**, **employees**, **dept_emp**, **dept_manager**, **salaries**.
    - Enable headers during import for proper column alignment.
-4. Load `employeesql/queries.sql`:
+4. Load `employee_sql/queries.sql`:
    - Execute each section (1–8) to answer the analytical questions.
    - Read through comments for additional explanations or alternative solutions.
 
