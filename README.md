@@ -17,7 +17,7 @@ This challenge focuses on analysing historical employee data for Pewlett Hackard
 ## 2. Repository
 
 ### Structure
-- **Main Folder**: [`employeesql`](employeesql)  
+- **Main Folder**: [`employeesql/`](employeesql)  
   - **ERD Diagram**: [`employeesql/erd.png`](employeesql/erd.png)
   - **ERD Text Description**: [`employeesql/erd.txt`](employeesql/erd.txt)
   - **Database Schema**: [`employeesql/schemata.sql`](employeesql/schemata.sql)
